@@ -25,7 +25,7 @@ $ git clone https://github.com/Almeidadm/GA_lib.git
  
  E agora você pode usar a biblioteca em qualquer programa utilizando a linguagem python3 a partir da importação
  
- >> from GA_lib import GA
+ > from GA_lib import GA
  
  EXEMPLOS DE USO
  ...
