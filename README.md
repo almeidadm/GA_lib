@@ -28,4 +28,5 @@ $ git clone https://github.com/Almeidadm/GA_lib.git
  \>\> from GA_lib import GA
  
  EXEMPLOS DE USO
+ 
  ...
