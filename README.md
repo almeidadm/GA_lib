@@ -15,6 +15,10 @@ Certifique-se de ter a biblioteca numpy instalada. Por via das dúvidas, o coman
 
 $ pip install numpy
 
+Outra biblioteca importante para plotagem dos gráficos é a matplotlib, que pode ser instalada por 
+
+$ pip install matplotlib
+
 Agora vá até o diretório que deseja instalar a biblioteca e execute
 
 $ git clone https://github.com/Almeidadm/GA_lib.git
@@ -49,9 +53,12 @@ EXEMPLOS DE USO
    
    Entrada:
    
-   \>\> GA.distancia_ponto_linha(Lponto1=[1,2,5], Lponto2=[-3, -1, -2], ponto=[-2, 8, -1])
+   \>\> GA.distancia_ponto_linha(Lponto1=[1,2,5], Lponto2=[-3, -1, -2], ponto=[-2, 8, -1], plot=True)
    
    Saída:
+   
+   ![Figure_1](https://user-images.githubusercontent.com/47041221/94928448-15136780-049a-11eb-8e01-f4db2552aaa0.png)
+
    
    \>\> 7.967840766888259
    
@@ -65,9 +72,12 @@ EXEMPLOS DE USO
    
    Para isso, temos a  Entrada:
    
-   \>\> GA.distancia_ponto_plano(vetor1=[-3, -6, -1], vetor2=[-5, -3, -5], ponto_plano=[1, 5, 3], ponto=[3, -5, 2])
+   \>\> GA.distancia_ponto_plano(vetor1=[-3, -6, -1], vetor2=[-5, -3, -5], ponto_plano=[1, 5, 3], ponto=[3, -5, 2], plot=True)
    
    Saída:
+   
+   ![Figure_2](https://user-images.githubusercontent.com/47041221/94928977-da5dff00-049a-11eb-9fc1-303c509f871c.png)
+
    
    \>\> 4.910618416080245
     
