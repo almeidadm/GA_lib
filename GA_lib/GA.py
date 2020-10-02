@@ -70,7 +70,7 @@ def distancia_ponto_plano(vetor1, vetor2, ponto_plano, ponto, plot=False):
 
         surf = ax.plot_surface(X, Y, Z)
 
-        ax.plot(ponto[0], ponto[1], ponto[2], "o", label="Dist: %.3f" % abs(sum)/modulo(n))
+        ax.plot(ponto[0], ponto[1], ponto[2], "o", label="Dist: %.3f" % (abs(sum)/modulo(n)))
         plt.legend(loc="upper right")
         plt.show()
         plt.clf()
