@@ -27,6 +27,31 @@ $ git clone https://github.com/Almeidadm/GA_lib.git
  
  \>\> from GA_lib import GA
  
- EXEMPLOS DE USO
+ CONSIDERAÇÕES SOBRE FORMATOS
  
- ...
+ Como essa ferramenta visa facilitar o aprendizado do aluno algumas representações são simplificadas e podem gerar ambiguidades em sua utilização. 
+ Dessa forma um ponto p = (x, y, z) será representado como uma lista simples 
+ >[x, y, z]
+ E de maneira similar, um vetor v = (x, y, z) será
+ >[x, y, z]
+ 
+ Isso exige que o aluno saiba qual o tipo de resultado que deverá ser esperado no retorno daquela dada função.
+ 
+EXEMPLOS DE USO
+
+ Distância entre um ponto e uma linha
+   A distância entre um ponto e uma linha é definida por
+   
+   ![img1](https://user-images.githubusercontent.com/47041221/94879427-8d484180-0436-11eb-8648-87ffbb223738.jpg)
+ 
+   Onde M1 é um ponto na linha s e M0 é o ponto de interesse. A função em GA_lib para resolver este problema exige que você insira dois pontos pertencentes a reta em questão, e também o ponto de interesse. Os parâmetros Lponto1 e Lponto2 são os pontos que permitem a construção da reta.
+   
+   Entrada:
+   
+   \>\> GA.distancia_ponto_linha(Lponto1=[1,2,5], Lponto2=[-3, -1, -2], ponto=[-2, 8, -1])
+   
+   Saída:
+   
+   \>\> 7.967840766888259
+   
+   
