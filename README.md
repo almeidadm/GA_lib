@@ -5,9 +5,9 @@ Este projeto está em desenvolvimento e poderá ter novas funcionalidades adicio
 Esta biblioteca é uma ferramenta para estudantes de Geometria Analítica que visa facilitar o aprendizado dos conceito abordados na matéria por meio da validação dos resultados obtidos.
 Com essa ferramenta o estudante pode validar os resultados obtidos em seu estudo comparando-os com os resultados retornados das funções presentes nesta biblioteca.
 
-Note que, mesmo com uma biblioteca como essa que visa simplificar o aprendizado, competências de traduzir notações de planos e retas ainda se fazem necessárias para a sua plena utilização.
+Note que, mesmo que com esta biblioteca, que visa simplificar o aprendizado, competências como traduzir notações de planos e retas ainda se fazem necessárias para a sua plena utilização.
 
-A biblioteca GA_lib não apresenta resultados intermediários para se obter o resultado final, entretando, pode-se consultar sua documentação para entendimento das etapas necessárias para a obtenção dos resultados.
+A biblioteca GA_lib não apresenta resultados intermediários para se obter o resultado final, entretando, pode-se consultar sua documentação para entendimento das etapas necessárias para a resolução dos problemas.
 
 INSTALAÇÃO
 
